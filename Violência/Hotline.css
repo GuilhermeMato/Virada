@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Nova Square', sans-serif;
 }
 
 header {
@@ -23,12 +24,20 @@ header {
     padding-left: 10px;
     margin: 0 10px;
     font-size: 20px;
+    display: flex;
 }
 
 .topicos a {
     text-decoration: none;
     color: white;
-    font-family: 'Nova Square', sans-serif;
+
+}
+
+.topicos a:hover {
+    transition: 300ms;
+    cursor: pointer;
+    font-size: 25px;
+    color: #ff5454;
 }
 
 h1.titulo{
@@ -41,13 +50,6 @@ h1.titulo{
     display: flex;
 }
 
-.principal img{
-    height:50px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #paineis{
     display: flex;
     justify-content: center;
@@ -55,19 +57,21 @@ h1.titulo{
 
 .principal{
     border: 3px solid #282828;
-    padding: 10px;
+    padding: 40px;
+    padding-top: 10px;
     margin: 20px;
     border-radius: 20px;
-    height: 400px;
-    width: 200px;
+    height: 600px;
+    width: 400px;
 }
 
 .secundaria {
     border: 3px solid #282828;
-    padding: 10px;
-    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 40px;
     border-radius: 20px;
-    height: 200px;
-
+    height: 400px;
+    width: 200px;
 
 }
