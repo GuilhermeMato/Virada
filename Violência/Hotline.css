@@ -34,9 +34,9 @@ header {
 }
 
 .topicos a:hover {
-    transition: 300ms;
+    transition: 400ms;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 21px;
     color: #ff5454;
 }
 
@@ -61,8 +61,8 @@ h1.titulo{
     padding-top: 10px;
     margin: 20px;
     border-radius: 20px;
-    height: 600px;
-    width: 400px;
+    height: 400px;
+    width: 200px;
 }
 
 .secundaria {
@@ -73,5 +73,5 @@ h1.titulo{
     border-radius: 20px;
     height: 400px;
     width: 200px;
-
 }
+
