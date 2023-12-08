@@ -75,25 +75,34 @@ h1.titulo{
     width: 200px;
 }
 
-.coluna {
+#personagens{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.caixa {
-    width: 30%;
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.personagem img {
-    width: 50px; 
-    display: block;
-    margin-right: 10px;
+.caixa{
+    border-radius: 10px;
+    border: 1px solid #181818;
+    padding: 20px;
+    margin: 50px;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
-.personagem h1 {
-    margin-top: 0;
+.caixa p{
+    font-size: 20px;
+}
+
+.caixa img{
+    width: 100px;
+    height: min-content;
 }
