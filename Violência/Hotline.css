@@ -71,7 +71,7 @@ h1.titulo {
     padding-top: 10px;
     margin: 50px;
     border-radius: 20px;
-    height: 400px;
+    height: min-content;
     width: 200px;
 }
 
@@ -110,8 +110,23 @@ h1.titulo {
     font-size: 50px;
 }
 
-.hist{
-    margin: 10px;
-    flex-direction: column;
-    padding: 10px;
+.hist {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hist h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.hist p {
+    color: #555;
+    line-height: 1.5;
+}
+.hln {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
