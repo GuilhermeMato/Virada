@@ -14,7 +14,7 @@ header {
     list-style: none;
     padding: 20px;
     display: flex;
-    justify-content:right ;
+    justify-content: right;
     align-items: center;
     height: 100%;
     margin: 0;
@@ -40,24 +40,24 @@ header {
     color: #ff5454;
 }
 
-h1.titulo{
+h1.titulo {
     padding-bottom: 10px;
     margin: 0;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 40px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-#paineis{
+#paineis {
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
-.principal{
+.principal {
     border: 3px solid #282828;
-    padding: 40px;
+    padding: 30px;
     padding-top: 10px;
     margin: 20px;
     border-radius: 20px;
@@ -75,30 +75,43 @@ h1.titulo{
     width: 200px;
 }
 
-#personagens{
+#personagens {
     display: flex;
     justify-content: center;
 }
 
-.coluna{
+
+.quadro {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    margin: 10px;
 }
 
-.caixa{
-    border-radius: 10px;
-    border: 1px solid #181818;
-    padding: 20px;
+.caixa {
+    padding: 15px;
     margin: 50px;
-    height: 200px;
+    height: min-content;
     width: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.caixa p{
+.foto img {
+    width: 190px;
+    height: min-content;
+}
+
+.caixa p {
     font-size: 20px;
 }
 
+.caixa h1 {
+    font-size: 50px;
+}
+
+.hist{
+    margin: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
